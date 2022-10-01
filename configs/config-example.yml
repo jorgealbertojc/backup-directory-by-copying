@@ -1,0 +1,9 @@
+---
+description: "Backup configuration to save the disk that shows SMART warning to the new 2TB disk"
+directories:
+
+  - _id: "bkp-documents"
+    description: "creates backup about important documents"
+    paths:
+      source: /home/arkos/backup-directory-by-copying/tests/test-source-directory
+      target: /home/arkos/backup-directory-by-copying/tests/test-target-directory/test-source-directory

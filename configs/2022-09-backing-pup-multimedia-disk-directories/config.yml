@@ -1,0 +1,21 @@
+---
+description: "Backup configuration to save the disk that shows S.M.A.R.T. warning to the new 2TB disk"
+directories:
+
+  - _id: "backup-documents"
+    description: "creates a backup from documents where is storage all PDF documents"
+    paths:
+      source: /media/local/storage/Documents
+      target: /media/storage/Documents
+
+  - _id: "backup-downloads-bkp"
+    description: "Creates a backup about clean downloads backup directory"
+    paths:
+      source: /media/local/storage/Downloads/bkp
+      target: /media/storage/Downloads/bkp
+
+  - _id: "backup-pictures"
+    description: "create backup from pictures"
+    paths:
+      source: /media/local/storage/Pictures
+      target: /media/storage/Pictures
