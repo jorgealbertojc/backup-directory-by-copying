@@ -1,0 +1,15 @@
+---
+description: "Backup configuration to save the disk that shows S.M.A.R.T. warning to the new 2TB disk"
+directories:
+
+  - _id: "backup-unordered-files"
+    description: "attempts to backup unordered files and videos"
+    paths:
+      source: /media/local/storage/Unordered
+      target: /media/storage/Unordered
+
+  - _id: "backup-videos"
+    description: "attempts to backup videos, series, and movies"
+    paths:
+      source: /media/local/storage/Videos
+      target: /media/storage/Videos

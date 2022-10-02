@@ -1,0 +1,81 @@
+---
+description: "Backup configuration to save the disk that shows S.M.A.R.T. warning to the new 2TB disk"
+directories:
+
+  - _id: "eae-appengine-polyfills"
+    description: "migrating repository 'eae-appengine-polyfills'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/eae-appengine-polyfills
+      target: /media/local/Workspace/bbva/src/e3r.io/eae-appengine-polyfills
+
+  - _id: "eae-appengine-polyfills-runners"
+    description: "migrating repository 'eae-appengine-polyfills-runners'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/eae-appengine-polyfills-runners
+      target: /media/local/Workspace/bbva/src/e3r.io/eae-appengine-polyfills-runners
+
+  - _id: "eae-tools"
+    description: "migrating repository 'eae-tools'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/eae-tools
+      target: /media/local/Workspace/bbva/src/e3r.io/eae-tools
+
+  - _id: "ether-service-appengine"
+    description: "migrating repository 'ether-service-appengine'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/ether-service-appengine
+      target: /media/local/Workspace/bbva/src/e3r.io/ether-service-appengine
+
+  - _id: "ether-service-stack-pipelines"
+    description: "migrating repository 'ether-service-stack-pipelines'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/ether-service-stack-pipelines
+      target: /media/local/Workspace/bbva/src/e3r.io/ether-service-stack-pipelines
+
+  - _id: "ether-service-tech-stacker"
+    description: "migrating repository 'ether-service-tech-stacker'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/ether-service-tech-stacker
+      target: /media/local/Workspace/bbva/src/e3r.io/ether-service-tech-stacker
+
+  - _id: "lib-go-artifactory-tools"
+    description: "migrating repository 'lib-go-artifactory-tools'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/lib-go-artifactory-tools
+      target: /media/local/Workspace/bbva/src/e3r.io/lib-go-artifactory-tools
+
+  - _id: "lib-go-cluster-connector"
+    description: "migrating repository 'lib-go-cluster-connector'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/lib-go-cluster-connector
+      target: /media/local/Workspace/bbva/src/e3r.io/lib-go-cluster-connector
+
+  - _id: "lib-go-eae-module-utils"
+    description: "migrating repository 'lib-go-eae-module-utils'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/lib-go-eae-module-utils
+      target: /media/local/Workspace/bbva/src/e3r.io/lib-go-eae-module-utils
+
+  - _id: "lib-go-ether-model"
+    description: "migrating repository 'lib-go-ether-model'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/lib-go-ether-model
+      target: /media/local/Workspace/bbva/src/e3r.io/lib-go-ether-model
+
+  - _id: "lib-go-ether-utils"
+    description: "migrating repository 'lib-go-ether-utils'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/lib-go-ether-utils
+      target: /media/local/Workspace/bbva/src/e3r.io/lib-go-ether-utils
+
+  - _id: "vpn-for-dummies"
+    description: "migrating repository 'vpn-for-dummies'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/vpn-for-dummies
+      target: /media/local/Workspace/bbva/src/e3r.io/vpn-for-dummies
+
+  - _id: "waveform-local-dev-env"
+    description: "migrating repository 'waveform-local-dev-env'"
+    paths:
+      source: /media/local/storage/Workspace/bbva/src/e3r.io/waveform-local-dev-env
+      target: /media/local/Workspace/bbva/src/e3r.io/waveform-local-dev-env

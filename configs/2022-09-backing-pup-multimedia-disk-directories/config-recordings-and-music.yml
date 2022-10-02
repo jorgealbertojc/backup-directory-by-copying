@@ -1,0 +1,15 @@
+---
+description: "Backup configuration to save the disk that shows S.M.A.R.T. warning to the new 2TB disk"
+directories:
+
+  - _id: "backup-recordings"
+    description: "this recordings are from meets and another things from work"
+    paths:
+      source: /media/local/storage/Recordings
+      target: /media/storage/Recordings
+
+  - _id: "backup-music"
+    description: "attempts to backup music"
+    paths:
+      source: /media/local/storage/Music
+      target: /media/storage/Music
